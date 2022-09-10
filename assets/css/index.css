@@ -1,0 +1,28 @@
+* {
+    background-color: orange;
+    text-align: center;
+    
+}
+
+
+
+h1 {
+    text-align: center;
+}
+h2 {
+    color: white;
+    
+}
+
+ ul li{
+    display: flex;
+    float: right;
+    position: relative;
+    padding: 15px;
+    text-align: left;
+    font-size: 25px;
+    align-items: right;
+    text-decoration: none;
+    color: aqua;
+    
+}
