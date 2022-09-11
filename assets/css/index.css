@@ -1,21 +1,22 @@
 * {
     background-color: orange;
     text-align: center;
-    
 }
 
 
 
 h1 {
-    text-align: center;
+    text-align: left;
+    padding-left: 25px;
 }
 h2 {
     color: white;
     
 }
 
- ul li{
+ li{
     display: flex;
+    padding-top: 250px;
     float: right;
     position: relative;
     padding: 15px;
@@ -25,4 +26,17 @@ h2 {
     text-decoration: none;
     color: aqua;
     
+}
+.hero {
+    display: flex;
+    padding-left: 50px;
+}
+img {
+    padding-right: 1100px;
+    padding-top: 10px;
+}
+section {
+    display: inline;
+    position: relative;
+    right: 0px;
 }
