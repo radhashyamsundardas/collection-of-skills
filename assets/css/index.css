@@ -1,10 +1,15 @@
+/* start for all elements */
 * {
     text-align: center;
 }
+/* end of all elements */
+
+/* start of html   */
 html{
     background-color: orange;
 }
-
+/* end of html */
+/* navigation styling starts here */
 nav{
     display: flex;
     justify-content: space-around;
@@ -17,7 +22,9 @@ nav{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border: solid black;
 }
+/* navigation styling ends here */
 
+/* heading 1 styling starts here */
 h1 {
     display: flex;
     justify-content: flex-start;
@@ -28,16 +35,23 @@ h1 {
     padding-bottom: 1px;
     color: rgb(16, 15, 15);
 }
+/* heading 1 styling ends here */
 
+/* heading 2 styling starts here */
 h2 {
     color: rgb(12, 13, 14);
     display: flex;
     }
+/* heading 2 styling ends here */
+
+/* heading 3 styling starts here */
 h3 {
     color: white;
     font-size: 25px;
 }
+/* heading 3 styling ends here */
 
+/* li section styling starts here */
  li{
     display: flex;
     justify-content: flex-end;
@@ -51,23 +65,28 @@ h3 {
     padding: 10px;
     margin: auto;
     }
+/* li styling ends here */
+
+/*  paragraph styling starts here*/
 p {
         text-align: center;
     }
+    /* paragraph styling ends here */
 .hero {
     display: flex;
     justify-content: center;
     
 }
-
+/* main section styling starts here */
 .main {
     
     justify-content: center;
     text-align: right ;
     border-radius: 5px;
-
-    
 }
+/* main section styling ends here */
+
+/* section 1, 2 and 3 styling starts here */
 .section-1 {
     display: flex;
     flex-wrap: wrap;
@@ -75,7 +94,7 @@ p {
     background-color: rgb(203, 230, 179);
     border-style: double;
 }
-
+/* section 1, 2 and 3 styling ends here */
 .section-2 {
     display: flex;
     flex-wrap: wrap;
@@ -90,6 +109,7 @@ p {
 .section-3{
 
 }
+/* first, second and third project styling starts here */
 .first-project {
     background-image: url("https://mms.businesswire.com/media/20210204005257/en/857123/5/Tovala_Overhead_Shot_2_Credit_Audrey_Ma.jpg?download=1");
     background-size: cover;
@@ -120,6 +140,9 @@ p {
     border: black 2px solid;
     
 }
+/* first, second and third project styling ends here */
+
+/* footer starts here */
 .footer{
     display: flex;
     justify-content: flex-end;
@@ -133,10 +156,13 @@ p {
     padding: 10px;
     margin: auto;
 }
+/* footer ends here */
+
+/* for laptops and pc */
 @media screen and (max-width: 768px){
     section {width: 100%}
     }
-
-    @media screen and (min-width: 375px){
+    /* for mobile phones and ipads */
+@media screen and (min-width: 375px){
         section{width: 100%}
         }
