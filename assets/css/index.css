@@ -2,7 +2,7 @@
     text-align: center;
 }
 html{
-    background-color: rgb(231, 157, 157);
+    background-color: orange;
 }
 
 nav{
@@ -26,11 +26,11 @@ h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-right: 700px;
     padding-bottom: 1px;
-    color: rgb(230, 230, 55);
+    color: rgb(16, 15, 15);
 }
 
 h2 {
-    color:
+    color: rgb(12, 13, 14);
     display: flex;
     }
 h3 {
@@ -50,29 +50,93 @@ h3 {
     text-decoration: none;
     padding: 10px;
     margin: auto;
-    
-    
-    
-}
+    }
+p {
+        text-align: center;
+    }
 .hero {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     
 }
 
-.section-1 {
-    display: flex;
-    justify-content: left;
-    text-align: left;
-    background-color: aqua;
-    border: 5px black;
+.main {
+    
+    justify-content: center;
+    text-align: right ;
+    border-radius: 5px;
+
+    
 }
-.section-2 {
+.section-1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
+    background-color: rgb(203, 230, 179);
+    border-style: double;
 }
 
-.tovala-coding-challenge {
-    background-image: url('.//https://www.tovala.com/how-it-works');
+.section-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: start;
+    width: 45%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
 }
+.section-3{
+
+}
+.first-project {
+    background-image: url("https://mms.businesswire.com/media/20210204005257/en/857123/5/Tovala_Overhead_Shot_2_Credit_Audrey_Ma.jpg?download=1");
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    margin: 0 1% 2% 1%;
+    border: black 1px solid;
+    }
+.second-project{
+    float:right;
+    display: right;
+    justify-content: flex-end;
+    background-size: cover;
+    width: 50%;
+    height: 250px;
+    background-image: url("https://media-cdn.trulia-local.com/neighborhood-media-service-prod/ma/boston/hyde-park/1269-ma_bos_hyde_park_154775_23_500x_cfit.jpg");
+    border: black 2px solid;
+    margin-bottom: 5px;
+}
+.third-project {
+    
+    float: inline-start;
+    display: flex;
+    background-size: cover;
+    width: 50%;
+    height: 250px;
+    background-image: url("https://png.pngtree.com/png-vector/20190115/ourmid/pngtree-vector-calculator-icon-png-image_321046.jpg");
+    border: black 2px solid;
+    
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    position: relative;
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+    align-items:center;
+    text-decoration: none;
+    padding: 10px;
+    margin: auto;
+}
+@media screen and (max-width: 768px){
+    section {width: 100%}
+    }
+
+    @media screen and (min-width: 375px){
+        section{width: 100%}
+        }
