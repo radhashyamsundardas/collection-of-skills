@@ -1,42 +1,78 @@
 * {
-    background-color: orange;
     text-align: center;
 }
+html{
+    background-color: rgb(231, 157, 157);
+}
 
-
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-image: url("https://webneel.com/wallpaper/sites/default/files/images/08-2018/2-nature-wallpaper-grass.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: solid black;
+}
 
 h1 {
-    text-align: left;
-    padding-left: 25px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-right: 700px;
+    padding-bottom: 1px;
+    color: rgb(230, 230, 55);
 }
+
 h2 {
+    color:
+    display: flex;
+    }
+h3 {
     color: white;
-    
+    font-size: 25px;
 }
 
  li{
     display: flex;
-    padding-top: 250px;
+    justify-content: flex-end;
     float: right;
     position: relative;
     padding: 15px;
     text-align: left;
     font-size: 25px;
-    align-items: right;
+    align-items:center;
     text-decoration: none;
-    color: aqua;
+    padding: 10px;
+    margin: auto;
+    
+    
     
 }
 .hero {
     display: flex;
-    padding-left: 50px;
+    justify-content: left;
+    
 }
-img {
-    padding-right: 1100px;
-    padding-top: 10px;
+
+.section-1 {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    background-color: aqua;
+    border: 5px black;
 }
-section {
-    display: inline;
-    position: relative;
-    right: 0px;
+.section-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.tovala-coding-challenge {
+    background-image: url('.//https://www.tovala.com/how-it-works');
 }
